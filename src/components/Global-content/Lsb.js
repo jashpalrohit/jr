@@ -31,7 +31,7 @@ export default function Lsb() {
                 </li>
                 
             </ul>
-            <a href="./assets/cv/Jashpal-Rohit__CV.pdf" target="_blank" title='Jashpal Rohit - Download CVCC' className="theme-btn">
+            <a href="./assets/cv/Jashpal-Rohit__CV.pdf" target="_blank" title='Jashpal Rohit - Download CV' className="theme-btn">
                 <i className="las la-download"></i> DOWNLOAD CV!
             </a>
         </div>
