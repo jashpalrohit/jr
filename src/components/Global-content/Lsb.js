@@ -32,7 +32,7 @@ export default function Lsb() {
                 
             </ul>
             <a href="./assets/cv/Jashpal-Rohit__CV.pdf" target="_blank" title='Jashpal Rohit - Download CV' className="theme-btn">
-                <i className="las la-download"></i> DOWNLOAD CV!
+                <i className="las la-download"></i> DOWNLOAD CVV!
             </a>
         </div>
   )
