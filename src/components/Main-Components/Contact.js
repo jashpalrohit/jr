@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
     const [fullName, setFullName] = useState(' ');
@@ -89,17 +89,28 @@ export default function Contact() {
         const isFullNameValid = validateFullName(fullName);
         const isEmailValid = validateEmail(email);
         const isPhoneNumberValid = validatePhoneNumber(phoneNumber);
-
+    
         if (isFullNameValid && isEmailValid && isPhoneNumberValid) {
+            const formData = {
+                fullName: fullName,
+                email: email,
+                phoneNumber: phoneNumber,
+                subject: subject,
+                message: message
+            };
             console.log('Form submitted successfully');
             setShowSuccessMessage(true);
-
-            setFullName('');
-            setEmail('');
-            setPhoneNumber('');
-            setSubject(''); // Clear the subject
-            setMessage('');
-            // Add form submission logic here
+            emailjs.send('service_h8kvvfc', 'template_0hee9s9', formData, 'jM4inLvDHxFhjePBy')
+                .then(() => {
+                    setFullName('');
+                    setEmail('');
+                    setPhoneNumber('');
+                    setSubject(''); // Clear the subject
+                    setMessage('');
+                })
+                .catch((error) => {
+                    console.error('Error sending email:', error);
+                });
         } else {
             console.log('Form validation failed');
         }
@@ -118,7 +129,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <h3 className="scroll-animation" data-aos="fade-up">
-                        <a href="mailto:jassirohit02@gmail.com">jassirohit02@gmail.com</a>
+                        <a href="mailto:jassirohit02@gmail.com" title='Mail to Jashpal Rohit'>jassirohit02@gmail.com</a>
                     </h3>
                     <p id="required-msg">* Marked fields are required to fill.</p>
 

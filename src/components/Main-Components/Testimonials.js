@@ -1,10 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 export default function Testimonials() {
