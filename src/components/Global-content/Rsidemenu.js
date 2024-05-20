@@ -96,6 +96,9 @@ export default function Rsidemenu() {
                     <p>Social</p>
                     <ul className="social-links d-flex align-items-center">
                           <li>
+                              <a href="tel:+919408083510" rel='noreferrer' title="Call - Opens in a new window"><i className="la la-phone"></i></a>
+                          </li>
+                          <li>
                               <a href="skype:live:jassirohit02?chat" target='_blank' title="Skype - Opens in a new window"><i className="lab la-skype"></i></a>
                           </li>
                           <li>

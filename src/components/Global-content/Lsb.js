@@ -1,5 +1,4 @@
 import React from 'react';
-import $ from 'jquery';
 export default function Lsb() {
   return (
         <div className="left-sidebar">
@@ -14,6 +13,9 @@ export default function Lsb() {
               <i className="las la-heart"></i> in
               INDIA.</span></p>
             <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
+        <li>
+          <a href="tel:+919408083510" rel='noreferrer' title="Call - Opens in a new window"><i className="la la-phone"></i></a>
+        </li>
               <li>
           <a href="skype:live:jassirohit02?chat" target='_blank' rel='noreferrer' title="Skype - Opens in a new window"><i className="lab la-skype"></i></a>
               </li>

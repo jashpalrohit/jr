@@ -441,7 +441,7 @@ color: #fff;
   margin: auto;
 }
 .responsive-sidebar-menu .sidebar-menu-inner .sidebar-social ul {
-  gap: 15px;
+  gap: 10px;
 }
 .responsive-sidebar-menu .sidebar-menu-inner .sidebar-social ul li a {
     color: #999999;
@@ -905,14 +905,14 @@ color: #fff;
 }
 .left-sidebar .social-profile li a {
   display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 46px;
+  width: 45px;
+  height: 45px;
+  line-height: 41px;
   text-align: center;
   border: 2px solid #565656;
   border-radius: 50%;
   color: #999999;
-  font-size: 20px;
+  font-size: 18px;
   transition: .3s;
 }
 .left-sidebar .social-profile li a:hover {
