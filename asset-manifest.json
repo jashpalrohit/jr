@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jr/static/css/main.7dfd86e4.css",
-    "main.js": "/jr/static/js/main.05a7f2dc.js",
+    "main.css": "/jr/static/css/main.49eae0b7.css",
+    "main.js": "/jr/static/js/main.d2a5cceb.js",
     "static/js/453.ecae1bb1.chunk.js": "/jr/static/js/453.ecae1bb1.chunk.js",
     "static/media/la-brands-400.svg": "/jr/static/media/la-brands-400.928495fae14841a0d610.svg",
     "static/media/la-solid-900.svg": "/jr/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
@@ -20,12 +20,12 @@
     "static/media/la-regular-400.woff": "/jr/static/media/la-regular-400.aa859c0d08b8193d6586.woff",
     "static/media/la-regular-400.woff2": "/jr/static/media/la-regular-400.8dc1cedf1f4987f82b72.woff2",
     "index.html": "/jr/index.html",
-    "main.7dfd86e4.css.map": "/jr/static/css/main.7dfd86e4.css.map",
-    "main.05a7f2dc.js.map": "/jr/static/js/main.05a7f2dc.js.map",
+    "main.49eae0b7.css.map": "/jr/static/css/main.49eae0b7.css.map",
+    "main.d2a5cceb.js.map": "/jr/static/js/main.d2a5cceb.js.map",
     "453.ecae1bb1.chunk.js.map": "/jr/static/js/453.ecae1bb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfd86e4.css",
-    "static/js/main.05a7f2dc.js"
+    "static/css/main.49eae0b7.css",
+    "static/js/main.d2a5cceb.js"
   ]
 }
