@@ -9,7 +9,7 @@ export class Video extends Component {
 
   render() {
     return (
-        <video className="body-overlay" muted autoPlay loop style={{opacity: 0.2}} ref={ref => this.videoRef = ref}>
+        <video className="body-overlay" style="pointer-event:none" muted autoPlay loop style={{opacity: 0.2}} ref={ref => this.videoRef = ref}>
         <source src="./assets/images/video1.mp4" type="video/mp4"/>
         </video>
     )
