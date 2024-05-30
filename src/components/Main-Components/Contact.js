@@ -196,8 +196,7 @@ export default function Contact() {
                                         </option>
                                         <option value="General Inquiry">General Inquiry</option>
                                         <option value="Project Portfolio">Explore more Project Portfolio</option>
-                                        <option value="Freelance Project">Freelance Project</option>
-                                        <option value="Existing Project Support">Existing Project Support</option>
+                                        <option value="Project Support">Project Support</option>
                                     </select>
                                 </div>
                             </div>
