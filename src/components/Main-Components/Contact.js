@@ -197,7 +197,7 @@ export default function Contact() {
                                         <option value="General Inquiry">General Inquiry</option>
                                         <option value="Project Portfolio">Explore more Project Portfolio</option>
                                         <option value="Project Support">Project Support</option>
-                                    </select>
+                                    </select>  
                                 </div>
                             </div>
                             <div className="col-md-12">
