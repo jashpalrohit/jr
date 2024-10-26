@@ -22,15 +22,7 @@ export default function Lsb() {
               <li>
                   <a href="https://www.linkedin.com/in/jashpalrohit/" target='_blank'  rel='noreferrer' title="LinkedIn - Opens in a new window"><i className="lab la-linkedin-in"></i></a>
               </li>
-              <li>
-                  <a href="https://www.facebook.com/jashpalrohit" target='_blank'  rel='noreferrer' title="Facebook - Opens in a new window"><i className="lab la-facebook-f"></i></a>
-              </li>
-                <li>
-                  <a href="https://twitter.com/jashpalrohit" target='_blank'  rel='noreferrer' title="Twitter - Opens in a new window"><i className="lab la-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/jashpalrohit/" target='_blank'  rel='noreferrer' title="Instagram - Opens in a new window"><i className="lab la-instagram"></i></a>
-                </li>
+             
                 
             </ul>
             <a href="./assets/cv/Jashpal-Rohit__CV.pdf" target="_blank" title='Jashpal Rohit - Download CV' className="theme-btn">

@@ -104,15 +104,7 @@ export default function Rsidemenu() {
                           <li>
                               <a href="https://www.linkedin.com/in/jashpalrohit/" target='_blank' title="LinkedIn - Opens in a new window"><i className="lab la-linkedin-in"></i></a>
                           </li>
-                          <li>
-                              <a href="https://www.facebook.com/jashpalrohit" target='_blank' title="Facebook - Opens in a new window"><i className="lab la-facebook-f"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://twitter.com/jashpalrohit" target='_blank' title="Twitter - Opens in a new window"><i className="lab la-twitter"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://www.instagram.com/jashpalrohit/" target='_blank' title="Instagram - Opens in a new window"><i className="lab la-instagram"></i></a>
-                          </li>
+                         
                     </ul>
                 </div>
             </div>
