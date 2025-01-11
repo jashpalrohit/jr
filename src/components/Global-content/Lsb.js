@@ -9,7 +9,7 @@ export default function Lsb() {
             <img className="me" src="./assets/images/background/jashpalrohit-about.jpg" alt="Me"/>
       <div className="email h2"><a href='mailto:jassirohit02@gmail.com' title='Mail to Jashpal Rohit'>jassirohit02@gmail.com</a></div>
             <div className="h2 address">Base on Vadodara, Gujarat</div>
-          <p className="copyright"><span>&copy; 2024 Jashpal Rohit. Made with
+          <p className="copyright"><span>&copy; 2025 Jashpal Rohit. Made with
               <i className="las la-heart"></i> in
               INDIA.</span></p>
             <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
