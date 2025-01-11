@@ -94,9 +94,9 @@ export default function Testimonials() {
                         </Swiper>
                         <div className="testimonial-footer-nav">
                             <div className="testimonial-nav d-flex align-items-center">
-                                <button className="prev"  ><i className="las la-angle-left"></i></button>
+                                <button className="prev"><span className="sr-only">Previous Slide</span><i className="las la-angle-left"></i></button>
                                 <div id="testimonial-slide-count" className="testimonial-slide-count"></div>
-                                <button className="next"  ><i className="las la-angle-right"></i></button>
+                                <button className="next"  ><span className="sr-only">Next Slide</span><i className="las la-angle-right"></i></button>
                             </div>
                         </div>
                     </div>

@@ -31,42 +31,42 @@ export default function Scrollnav() {
   return (
     <ul className="menu scroll-nav d-flex">
           <li>
-              <a className={`scroll-to ${activeItem === 'home' ? 'active' : ''}`} href="#home" onClick={() => handleItemClick('home')}>
+              <a className={`scroll-to ${activeItem === 'home' ? 'active' : ''}`} href="#home" onClick={() => handleItemClick('home')} aria-label='Home'>
                   <span>Home</span> <i className="las la-home"></i>
               </a>
           </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'about' ? 'active' : ''}`} href="#about" onClick={() => handleItemClick('about')}>
+              <a className={`scroll-to ${activeItem === 'about' ? 'active' : ''}`} href="#about" onClick={() => handleItemClick('about')} aria-label='About'>
                 <span>About</span> <i className="lar la-user"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'resume' ? 'active' : ''}`} href="#resume" onClick={() => handleItemClick('resume')}>
+              <a className={`scroll-to ${activeItem === 'resume' ? 'active' : ''}`} href="#resume" onClick={() => handleItemClick('resume')} aria-label='Resume'>
                 <span>Resume</span> <i className="las la-briefcase"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'services' ? 'active' : ''}`} href="#services" onClick={() => handleItemClick('services')}>
+              <a className={`scroll-to ${activeItem === 'services' ? 'active' : ''}`} href="#services" onClick={() => handleItemClick('services')} aria-label='Services'>
                 <span>Services</span> <i className="las la-stream"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'skills' ? 'active' : ''}`} href="#skills" onClick={() => handleItemClick('skills')}>
+              <a className={`scroll-to ${activeItem === 'skills' ? 'active' : ''}`} href="#skills" onClick={() => handleItemClick('skills')} aria-label='Skills'>
                 <span>Skills</span> <i className="las la-shapes"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'portfolio' ? 'active' : ''}`} href="#portfolio" onClick={() => handleItemClick('portfolio')}>
+              <a className={`scroll-to ${activeItem === 'portfolio' ? 'active' : ''}`} href="#portfolio" onClick={() => handleItemClick('portfolio')} aria-label='Porfolios'>
                 <span>Portfolios</span> <i className="las la-grip-vertical"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'testimonial' ? 'active' : ''}`} href="#testimonial" onClick={() => handleItemClick('testimonial')}>
+              <a className={`scroll-to ${activeItem === 'testimonial' ? 'active' : ''}`} href="#testimonial" onClick={() => handleItemClick('testimonial')} aria-label='Testimonial'>
                 <span>Testimonial</span> <i className="lar la-comment"></i>
             </a>
         </li>
         <li>
-              <a className={`scroll-to ${activeItem === 'contact' ? 'active' : ''}`} href="#contact" onClick={() => handleItemClick('contact')}>
+              <a className={`scroll-to ${activeItem === 'contact' ? 'active' : ''}`} href="#contact" onClick={() => handleItemClick('contact')} aria-label='Contact'>
                 <span>Contact</span> <i className="las la-envelope"></i>
             </a>
         </li>
