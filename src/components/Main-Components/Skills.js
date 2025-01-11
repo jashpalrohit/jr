@@ -49,7 +49,7 @@ export default function Skills() {
                             <div className="skill">
                                 <div className="skill-inner">
                                     <img src="./assets/images/skills/jq-javascript.png" alt="jQuery/JavaScript"/>
-                                    <div className="percent">90%</div>
+                                    <div className="percent">85%</div>
                                 </div>
                               <p className="name">jQuery/JavaScript</p>
                             </div>
