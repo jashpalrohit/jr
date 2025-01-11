@@ -20,10 +20,10 @@ export default function Contact() {
 
     const validateFullName = (value) => {
         if (!value.trim()) {
-            setFullNameError('Please enter your Name');
+            setFullNameError('Please enter your full name.');
             return false;
         } else if (!/^[a-zA-Z\s]+$/.test(value)) {
-            setFullNameError('Full name should only contain letters and spaces');
+            setFullNameError('Full name should only contain letters and spaces.');
             return false;
         } else {
             setFullNameError('');
@@ -33,10 +33,10 @@ export default function Contact() {
 
     const validateEmail = (value) => {
         if (!value.trim()) {
-            setEmailError('Please enter your Email');
+            setEmailError('Please enter your email.');
             return false;
         } else if (!/\S+@\S+\.\S+/.test(value)) {
-            setEmailError('Please enter a valid Email address');
+            setEmailError('Please enter a valid email address.');
             return false;
         } else {
             setEmailError('');
@@ -46,10 +46,10 @@ export default function Contact() {
 
     const validatePhoneNumber = (value) => {
         if (!value.trim()) {
-            setPhoneNumberError('Please enter your Phone number');
+            setPhoneNumberError('Please enter your phone number.');
             return false;
         } else if (!/^\d+$/.test(value)) {
-            setPhoneNumberError('Phone number should only contain digits');
+            setPhoneNumberError('Phone number should only contain digits.');
             return false;
         } else {
             setPhoneNumberError('');
@@ -98,7 +98,7 @@ export default function Contact() {
                 subject: subject,
                 message: message
             };
-            console.log('Form submitted successfully');
+            console.log('Form submitted successfully.');
             setShowSuccessMessage(true);
             emailjs.send('service_h8kvvfc', 'template_0hee9s9', formData, 'jM4inLvDHxFhjePBy')
                 .then(() => {
