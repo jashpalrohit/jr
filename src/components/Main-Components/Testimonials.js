@@ -70,7 +70,7 @@ export default function Testimonials() {
                                         <div className="author d-flex align-items-center">
                                             <div className="right">
                                                 <h3>Ritesh Patel</h3>
-                                                <p className="designation">Manager, Agile Program Management (Delivery, Product)<span>Publicis Sapient</span></p>
+                                                <p className="designation">Manager, Agile Program Management (Delivery, Product), <span>Publicis Sapient</span></p>
                                             </div>
                                         </div>
                                         <p>"Jashpal brings pixels to life! His clean code and creative flair craft stunning UIs that are both beautiful and functional. Master of responsiveness, Jashpal's websites and apps shine across any screen. A developer who truly understands user experience. Jashpal's collaborative spirit makes him a dream teammate. He solves problems with a smile and keeps projects moving smoothly. Need a frontend rockstar? Look no further than Jashpal. His technical expertise and passion for code will elevate your projects to the next level."</p>
