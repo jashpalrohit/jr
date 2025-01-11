@@ -69,13 +69,11 @@ export default function Testimonials() {
                                     <div className="testimonial-item-inner">
                                         <div className="author d-flex align-items-center">
                                             <div className="right">
-                                                <h3>Sanket Rane</h3>
-                                                <p className="designation">Sr. Web Designer <span>TRooTech Business Solutions Pvt. Ltd.</span></p>
+                                                <h3>Ritesh Patel</h3>
+                                                <p className="designation">Manager, Agile Program Management (Delivery, Product)<span>Publicis Sapient</span></p>
                                             </div>
                                         </div>
-                                        <p>"Jashpal is highly creative and a very easy-going person to work with. He has good knowledge in his field. He is a very good being human at by personal and professional. Having a Good capability to handle multiple projects at the same time. As a Senior he has very good to handle his junior, always motivates to his junior.</p>
-
-                                        <p>And last He's always ready to learn anything from anyone even from his junior too."</p>
+                                        <p>"Jashpal brings pixels to life! His clean code and creative flair craft stunning UIs that are both beautiful and functional. Master of responsiveness, Jashpal's websites and apps shine across any screen. A developer who truly understands user experience. Jashpal's collaborative spirit makes him a dream teammate. He solves problems with a smile and keeps projects moving smoothly. Need a frontend rockstar? Look no further than Jashpal. His technical expertise and passion for code will elevate your projects to the next level."</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
